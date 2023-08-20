@@ -7,18 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2549FF56D3058B42539A205F /* Pods_SampleFirebaseUi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07F8CF81C9A97BCF739B36E6 /* Pods_SampleFirebaseUi.framework */; };
 		E95EEF4E2A911691002FB7C0 /* SampleFirebaseUiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EEF4D2A911691002FB7C0 /* SampleFirebaseUiApp.swift */; };
 		E95EEF502A911691002FB7C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EEF4F2A911691002FB7C0 /* ContentView.swift */; };
 		E95EEF522A911694002FB7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95EEF512A911694002FB7C0 /* Assets.xcassets */; };
 		E95EEF552A911694002FB7C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95EEF542A911694002FB7C0 /* Preview Assets.xcassets */; };
+		E95EEF5D2A911C09002FB7C0 /* FirebaseAnonymousAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E95EEF5C2A911C09002FB7C0 /* FirebaseAnonymousAuthUI */; };
+		E95EEF5F2A911C09002FB7C0 /* FirebaseAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E95EEF5E2A911C09002FB7C0 /* FirebaseAuthUI */; };
+		E95EEF612A911C09002FB7C0 /* FirebaseDatabaseUI in Frameworks */ = {isa = PBXBuildFile; productRef = E95EEF602A911C09002FB7C0 /* FirebaseDatabaseUI */; };
+		E95EEF632A911C09002FB7C0 /* FirebaseEmailAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E95EEF622A911C09002FB7C0 /* FirebaseEmailAuthUI */; };
+		E95EEF652A911C09002FB7C0 /* FirebaseFacebookAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E95EEF642A911C09002FB7C0 /* FirebaseFacebookAuthUI */; };
+		E95EEF672A911C09002FB7C0 /* FirebaseFirestoreUI in Frameworks */ = {isa = PBXBuildFile; productRef = E95EEF662A911C09002FB7C0 /* FirebaseFirestoreUI */; };
+		E95EEF692A911C09002FB7C0 /* FirebaseGoogleAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E95EEF682A911C09002FB7C0 /* FirebaseGoogleAuthUI */; };
+		E95EEF6B2A911C09002FB7C0 /* FirebaseOAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E95EEF6A2A911C09002FB7C0 /* FirebaseOAuthUI */; };
+		E95EEF6D2A911C09002FB7C0 /* FirebasePhoneAuthUI in Frameworks */ = {isa = PBXBuildFile; productRef = E95EEF6C2A911C09002FB7C0 /* FirebasePhoneAuthUI */; };
+		E95EEF6F2A911C09002FB7C0 /* FirebaseStorageUI in Frameworks */ = {isa = PBXBuildFile; productRef = E95EEF6E2A911C09002FB7C0 /* FirebaseStorageUI */; };
+		E95EEF712A9121C2002FB7C0 /* FirebaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EEF702A9121C2002FB7C0 /* FirebaseUIView.swift */; };
+		E95EEF732A9123F7002FB7C0 /* FirebaseAuthStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95EEF722A9123F7002FB7C0 /* FirebaseAuthStateManager.swift */; };
+		E9E915BF2A91E5FD00477EE0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E9E915BE2A91E5FD00477EE0 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06C2A93C574B712E4894AC8F /* Pods-SampleFirebaseUi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleFirebaseUi.release.xcconfig"; path = "Target Support Files/Pods-SampleFirebaseUi/Pods-SampleFirebaseUi.release.xcconfig"; sourceTree = "<group>"; };
+		07F8CF81C9A97BCF739B36E6 /* Pods_SampleFirebaseUi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleFirebaseUi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D60B6DBB75FE5893961D26 /* Pods-SampleFirebaseUi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleFirebaseUi.debug.xcconfig"; path = "Target Support Files/Pods-SampleFirebaseUi/Pods-SampleFirebaseUi.debug.xcconfig"; sourceTree = "<group>"; };
 		E95EEF4A2A911691002FB7C0 /* SampleFirebaseUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleFirebaseUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95EEF4D2A911691002FB7C0 /* SampleFirebaseUiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleFirebaseUiApp.swift; sourceTree = "<group>"; };
 		E95EEF4F2A911691002FB7C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E95EEF512A911694002FB7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95EEF542A911694002FB7C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E95EEF702A9121C2002FB7C0 /* FirebaseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUIView.swift; sourceTree = "<group>"; };
+		E95EEF722A9123F7002FB7C0 /* FirebaseAuthStateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthStateManager.swift; sourceTree = "<group>"; };
+		E9E593B02A9201590024E96C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E9E915BE2A91E5FD00477EE0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +47,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95EEF632A911C09002FB7C0 /* FirebaseEmailAuthUI in Frameworks */,
+				E95EEF672A911C09002FB7C0 /* FirebaseFirestoreUI in Frameworks */,
+				E95EEF5D2A911C09002FB7C0 /* FirebaseAnonymousAuthUI in Frameworks */,
+				E95EEF6F2A911C09002FB7C0 /* FirebaseStorageUI in Frameworks */,
+				E95EEF692A911C09002FB7C0 /* FirebaseGoogleAuthUI in Frameworks */,
+				E95EEF6D2A911C09002FB7C0 /* FirebasePhoneAuthUI in Frameworks */,
+				E95EEF5F2A911C09002FB7C0 /* FirebaseAuthUI in Frameworks */,
+				E95EEF652A911C09002FB7C0 /* FirebaseFacebookAuthUI in Frameworks */,
+				E95EEF612A911C09002FB7C0 /* FirebaseDatabaseUI in Frameworks */,
+				E95EEF6B2A911C09002FB7C0 /* FirebaseOAuthUI in Frameworks */,
+				2549FF56D3058B42539A205F /* Pods_SampleFirebaseUi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91F0135D370050A09083D086 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64D60B6DBB75FE5893961D26 /* Pods-SampleFirebaseUi.debug.xcconfig */,
+				06C2A93C574B712E4894AC8F /* Pods-SampleFirebaseUi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD18E10EB5E48413551993CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07F8CF81C9A97BCF739B36E6 /* Pods_SampleFirebaseUi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E95EEF412A911691002FB7C0 = {
 			isa = PBXGroup;
 			children = (
 				E95EEF4C2A911691002FB7C0 /* SampleFirebaseUi */,
 				E95EEF4B2A911691002FB7C0 /* Products */,
+				91F0135D370050A09083D086 /* Pods */,
+				CD18E10EB5E48413551993CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,10 +102,14 @@
 		E95EEF4C2A911691002FB7C0 /* SampleFirebaseUi */ = {
 			isa = PBXGroup;
 			children = (
+				E9E593B02A9201590024E96C /* Info.plist */,
+				E9E915BE2A91E5FD00477EE0 /* GoogleService-Info.plist */,
 				E95EEF4D2A911691002FB7C0 /* SampleFirebaseUiApp.swift */,
 				E95EEF4F2A911691002FB7C0 /* ContentView.swift */,
 				E95EEF512A911694002FB7C0 /* Assets.xcassets */,
 				E95EEF532A911694002FB7C0 /* Preview Content */,
+				E95EEF702A9121C2002FB7C0 /* FirebaseUIView.swift */,
+				E95EEF722A9123F7002FB7C0 /* FirebaseAuthStateManager.swift */,
 			);
 			path = SampleFirebaseUi;
 			sourceTree = "<group>";
@@ -74,15 +129,29 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E95EEF582A911694002FB7C0 /* Build configuration list for PBXNativeTarget "SampleFirebaseUi" */;
 			buildPhases = (
+				D287C7FB60DFCF3534884392 /* [CP] Check Pods Manifest.lock */,
 				E95EEF462A911691002FB7C0 /* Sources */,
 				E95EEF472A911691002FB7C0 /* Frameworks */,
 				E95EEF482A911691002FB7C0 /* Resources */,
+				608CB90FBECD8E2514B99EA3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SampleFirebaseUi;
+			packageProductDependencies = (
+				E95EEF5C2A911C09002FB7C0 /* FirebaseAnonymousAuthUI */,
+				E95EEF5E2A911C09002FB7C0 /* FirebaseAuthUI */,
+				E95EEF602A911C09002FB7C0 /* FirebaseDatabaseUI */,
+				E95EEF622A911C09002FB7C0 /* FirebaseEmailAuthUI */,
+				E95EEF642A911C09002FB7C0 /* FirebaseFacebookAuthUI */,
+				E95EEF662A911C09002FB7C0 /* FirebaseFirestoreUI */,
+				E95EEF682A911C09002FB7C0 /* FirebaseGoogleAuthUI */,
+				E95EEF6A2A911C09002FB7C0 /* FirebaseOAuthUI */,
+				E95EEF6C2A911C09002FB7C0 /* FirebasePhoneAuthUI */,
+				E95EEF6E2A911C09002FB7C0 /* FirebaseStorageUI */,
+			);
 			productName = SampleFirebaseUi;
 			productReference = E95EEF4A2A911691002FB7C0 /* SampleFirebaseUi.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +180,9 @@
 				Base,
 			);
 			mainGroup = E95EEF412A911691002FB7C0;
+			packageReferences = (
+				E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */,
+			);
 			productRefGroup = E95EEF4B2A911691002FB7C0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,16 +199,61 @@
 			files = (
 				E95EEF552A911694002FB7C0 /* Preview Assets.xcassets in Resources */,
 				E95EEF522A911694002FB7C0 /* Assets.xcassets in Resources */,
+				E9E915BF2A91E5FD00477EE0 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		608CB90FBECD8E2514B99EA3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleFirebaseUi/Pods-SampleFirebaseUi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleFirebaseUi/Pods-SampleFirebaseUi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleFirebaseUi/Pods-SampleFirebaseUi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D287C7FB60DFCF3534884392 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleFirebaseUi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E95EEF462A911691002FB7C0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95EEF732A9123F7002FB7C0 /* FirebaseAuthStateManager.swift in Sources */,
+				E95EEF712A9121C2002FB7C0 /* FirebaseUIView.swift in Sources */,
 				E95EEF502A911691002FB7C0 /* ContentView.swift in Sources */,
 				E95EEF4E2A911691002FB7C0 /* SampleFirebaseUiApp.swift in Sources */,
 			);
@@ -261,6 +378,7 @@
 		};
 		E95EEF592A911694002FB7C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64D60B6DBB75FE5893961D26 /* Pods-SampleFirebaseUi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -269,6 +387,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SampleFirebaseUi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleFirebaseUi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -289,6 +408,7 @@
 		};
 		E95EEF5A2A911694002FB7C0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C2A93C574B712E4894AC8F /* Pods-SampleFirebaseUi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +417,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SampleFirebaseUi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SampleFirebaseUi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +458,70 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/FirebaseUI-iOS.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E95EEF5C2A911C09002FB7C0 /* FirebaseAnonymousAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseAnonymousAuthUI;
+		};
+		E95EEF5E2A911C09002FB7C0 /* FirebaseAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseAuthUI;
+		};
+		E95EEF602A911C09002FB7C0 /* FirebaseDatabaseUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseDatabaseUI;
+		};
+		E95EEF622A911C09002FB7C0 /* FirebaseEmailAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseEmailAuthUI;
+		};
+		E95EEF642A911C09002FB7C0 /* FirebaseFacebookAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseFacebookAuthUI;
+		};
+		E95EEF662A911C09002FB7C0 /* FirebaseFirestoreUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseFirestoreUI;
+		};
+		E95EEF682A911C09002FB7C0 /* FirebaseGoogleAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseGoogleAuthUI;
+		};
+		E95EEF6A2A911C09002FB7C0 /* FirebaseOAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseOAuthUI;
+		};
+		E95EEF6C2A911C09002FB7C0 /* FirebasePhoneAuthUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebasePhoneAuthUI;
+		};
+		E95EEF6E2A911C09002FB7C0 /* FirebaseStorageUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E95EEF5B2A911C08002FB7C0 /* XCRemoteSwiftPackageReference "FirebaseUI-iOS" */;
+			productName = FirebaseStorageUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E95EEF422A911691002FB7C0 /* Project object */;
 }

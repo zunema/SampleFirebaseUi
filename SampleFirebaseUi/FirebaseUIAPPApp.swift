@@ -1,13 +1,11 @@
 //
-//  SampleFirebaseUiApp.swift
+//  FirebaseUIAPPApp.swift
 //  SampleFirebaseUi
 //
 //  Created by 飯尾悠也 on 2023/08/20.
 //
 
 import SwiftUI
-import FirebaseFirestore
-import FirebaseAuth
 import FirebaseCore
 import FirebaseAuthUI
 
@@ -30,8 +28,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 }
 
 @main
-struct SampleFirebaseUiApp: App {
+struct ChatAPPApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
